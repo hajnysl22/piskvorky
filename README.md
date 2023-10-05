@@ -1,0 +1,2 @@
+# piskvorky
+Piškvorky v Pythonu
