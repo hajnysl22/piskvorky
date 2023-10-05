@@ -74,4 +74,6 @@ while hrac < 9:
                 break
             elif(hrac % 2 == 1):
                 print('Hráč X vyhrál!')
-                break 
+                break
+    if hrac == 9:
+        print('Remíza') 
