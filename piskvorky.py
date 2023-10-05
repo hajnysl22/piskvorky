@@ -61,3 +61,17 @@ while hrac < 9:
                 print(elem, end=' ')
             print()
         hrac = hrac + 1
+    if(pole[0][0] == pole[0][1] == pole[0][2] or
+        pole[1][0] == pole[1][1] == pole[1][2] or
+        pole[2][0] == pole[2][1] == pole[2][2] or
+        pole[0][0] == pole[1][0] == pole[2][0] or
+        pole[0][1] == pole[1][1] == pole[2][1] or
+        pole[0][2] == pole[1][2] == pole[2][2] or
+        pole[0][0] == pole[1][1] == pole[2][2] or
+        pole[2][0] == pole[1][1] == pole[0][2]):
+            if(hrac % 2 == 0):
+                print('Hráč O vyhrál!')
+                break
+            elif(hrac % 2 == 1):
+                print('Hráč X vyhrál!')
+                break 
